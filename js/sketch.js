@@ -38,7 +38,7 @@ function preload() {
   for(let i = 0; i < 15; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
-    humanes[i] = loadImage("../elementos/AF-Elementos-Humanes-" + img_index + ".png");
+    humanes[i] = loadImage("https://estudiodao.github.io/Arq.Futuro-Ilustracao/elementos/AF-Elementos-Humanes-" + img_index + ".png");
     p_avisos.innerText = "Carregando humanes " + img_index;
   }
   
@@ -46,7 +46,7 @@ function preload() {
   for(let i = 0; i < 25; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
-    infraestrutura[i] = loadImage("../elementos/AF-Elementos-Infraestrutura-" + img_index + ".png");
+    infraestrutura[i] = loadImage("https://estudiodao.github.io/Arq.Futuro-Ilustracao/elementos/AF-Elementos-Infraestrutura-" + img_index + ".png");
     p_avisos.innerText = "Carregando infraestrutura " + img_index;
   }
 
@@ -54,7 +54,7 @@ function preload() {
   for(let i = 0; i < 13; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
-    mobilidade[i] = loadImage("../elementos/AF-Elementos-Mobilidade-" + img_index + ".png");
+    mobilidade[i] = loadImage("https://estudiodao.github.io/Arq.Futuro-Ilustracao/elementos/AF-Elementos-Mobilidade-" + img_index + ".png");
     p_avisos.innerText = "Carregando mobilidade " + img_index;
   }
 
@@ -62,7 +62,7 @@ function preload() {
   for(let i = 0; i < 7; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
-    natureza[i] = loadImage("../elementos/AF-Elementos-Natureza-" + img_index + ".png");
+    natureza[i] = loadImage("https://estudiodao.github.io/Arq.Futuro-Ilustracao/elementos/AF-Elementos-Natureza-" + img_index + ".png");
     p_avisos.innerText = "Carregando natureza " + img_index;
   }
 
@@ -70,7 +70,7 @@ function preload() {
   for(let i = 0; i < 10; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
-    fundos[i] = loadImage("../elementos/AF-Elementos-Fundo_" + img_index + ".png");
+    fundos[i] = loadImage("https://estudiodao.github.io/Arq.Futuro-Ilustracao/elementos/AF-Elementos-Fundo_" + img_index + ".png");
     p_avisos.innerText = "Carregando fundos " + img_index;
   }
 
