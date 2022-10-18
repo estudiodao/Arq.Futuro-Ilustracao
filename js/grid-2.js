@@ -96,7 +96,7 @@ function initializeGrid() {
   }
     
   cell_infos = shuffle(cell_infos);
-  cell_infos.unshift(new Cell(width/2, height/2, width, height, fundos[0], "cell_fundo"));
+  cell_infos.unshift(new Cell(width/2, height/2, width, height, fundos[floor(random(fundos.length))], "cell_fundo"));
 
 }
 
