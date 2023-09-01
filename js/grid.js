@@ -59,7 +59,6 @@ function aleatoria(qtd, min, max, elementos) {
   for(let i = 0; i < qtd; i++) {
     let pos_atual = poissonSamples[i%poissonSamples.length];
     let size = random(min, max);
-    console.log(elementos[0]);
     cell_infos.push(new Cell(pos_atual.x, pos_atual.y, size, size, elementos[i%elementos.length], "cell_aleatoria"));
   }
 }
