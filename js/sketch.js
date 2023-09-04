@@ -1,8 +1,8 @@
 // Código baseado nesse tutorial:
 // https://gorillasun.de/blog/an-algorithm-for-irregular-grids
 
-// let base_url = "https://estudiodao.github.io/Arq.Futuro-Ilustracao/";
-let base_url = "./";
+let base_url = "https://estudiodao.github.io/Arq.Futuro-Ilustracao/";
+// let base_url = "./";
 
 let padding;
 let grid_divisors_x;
