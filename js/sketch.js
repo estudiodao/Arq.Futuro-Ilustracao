@@ -55,7 +55,7 @@ function preload() {
   }
 
   mobilidade = [];
-  for(let i = 0; i < 19; i++ ) {
+  for(let i = 0; i < 20; i++ ) {
     let img_index = str(i + 1);
     img_index = img_index.padStart(2, '0');
     mobilidade[i] = loadImage(base_url + "elementos/AF-Elementos-Mobilidade-" + img_index + ".png");
